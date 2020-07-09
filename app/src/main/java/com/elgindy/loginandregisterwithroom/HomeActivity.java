@@ -17,7 +17,7 @@ public class HomeActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_home);
 
-        user = (User) getIntent().getSerializableExtra("User");
+            user = (User) getIntent().getSerializableExtra("User");
 
         tvUser = findViewById(R.id.tvUser);
 
